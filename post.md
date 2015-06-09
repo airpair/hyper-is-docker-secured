@@ -1,3 +1,5 @@
+*Disclaimer: Although I am currently working at HyperHQ, what I write in this post are personnal opinions, not approved beforehand by my employer.*
+
 ## Security matters
 
 Regardless you are starting up, or running a corporate-level project, security will always be part of any decision related to your production system(s). The importance of security makes it difficult for new technologies to be adopted, and may slow down their development; but not if security has been placed at the top priority since the origin of the idea.
@@ -33,7 +35,7 @@ We can distinguish two major security concerns, when relating to Docker containe
 - When you run Docker containers, you may be running **uncertainly safe** Images.
 - Your containers may be [uncertainly isolated](https://zeltser.com/security-risks-and-benefits-of-docker-application/).
 
-Although Docker Inc. is putting a lot of efforts toward security, it does sound scary, and better isolation is wished.
+Although Docker Inc. is putting a lot of efforts toward security, it may sound scary, giving sense to the need for better isolation.
 
 ![Hybrid Infrastructure by Docker](https://s3-us-west-1.amazonaws.com/bloghyper/post1/docker.png)
 
