@@ -1,4 +1,4 @@
-*Disclaimer: Although I am currently working at HyperHQ, what I write in this post are personnal opinions, not approved beforehand by my employer.*
+*Disclaimer: Although I am currently working at HyperHQ, what I wrote in this post are personnal opinions, not approved beforehand by the company.*
 
 ## Security matters
 
@@ -35,7 +35,7 @@ We can distinguish two major security concerns, when relating to Docker containe
 - When you run Docker containers, you may be running **uncertainly safe** Images.
 - Your containers may be [uncertainly isolated](https://zeltser.com/security-risks-and-benefits-of-docker-application/).
 
-Although Docker Inc. is putting a lot of efforts toward security, it may sound scary, giving sense to the need for better isolation.
+Although Docker Inc. is putting a lot of efforts toward security, it may sound scary, giving sense to the need for better isolation in case of multi-tenant applications.
 
 ![Hybrid Infrastructure by Docker](https://s3-us-west-1.amazonaws.com/bloghyper/post1/docker.png)
 
