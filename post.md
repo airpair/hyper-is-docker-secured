@@ -1,5 +1,7 @@
 *Disclaimer: Although I am currently working at HyperHQ, what I wrote in this post are personnal opinions, not approved beforehand by the company.*
 
+If you are a developer or system administrator, with an interest in the current DevOps landscape, you probably have heard about [Docker](http://docker.com). But do you know how secured is Docker today? Here is an analysis of the situation, as it is in June 2015.
+
 ## Security matters
 
 Regardless you are starting up, or running a corporate-level project, security will always be part of any decision related to your production system(s). The importance of security makes it difficult for new technologies to be adopted, and may slow down their development; but not if security has been placed at the top priority since the origin of the idea.
@@ -13,7 +15,7 @@ This document contains a lot of recommendation and good practices, sometimes gen
 
 *Percentage of official images with vulnerabilities, credit: BanyanOps*
 
-## But, images are said unsafe!?
+## But, Docker images are said unsafe!?
 
 Recently, an article from BanyanOps stated that [Over 30% of Official Images in Docker Hub Contain High Priority Security Vulnerabilities](http://www.banyanops.com/blog/analyzing-docker-hub/). This scary number has been [argued](http://jpetazzo.github.io/2015/05/27/docker-images-vulnerabilities/) by Jérôme Petazzoni, former developer and thinker at Docker, who said that, although this number may be correct, many of the vulnerable images are voluntary using older and unpatched versions of software, for testing/compatibility purposes.
 
