@@ -29,13 +29,11 @@ Jérôme, in his [post](http://jpetazzo.github.io/2015/05/27/docker-images-vulne
 
 In a [recent interview](https://medium.com/s-c-a-l-e/how-containers-became-a-tech-darling-and-why-docker-became-their-poster-child-bfaf9ac87825), Jason Hoffman, head of technology for cloud systems at Ericsson and ex-CTO of cloud computing provider Joyent, said that "Docker’s taking off because it’s the **new package management**". To that end, Docker images lack of any official, maintained, and safe delivery channel (think `apt-get`, `yum`, ...).
 
-Docker images need *official* maintainers.
+Both showed that Docker images need *official* maintainers.
 
 ## The need for isolation
 
-We can distinguish two major security concerns, when relating to Docker containers:
-- When you run Docker containers, you may be running **uncertainly safe** Images.
-- Your containers may be [uncertainly isolated](https://zeltser.com/security-risks-and-benefits-of-docker-application/).
+We saw that when you run Docker containers, you may be running **uncertainly safe** Images. But, also, your containers may be [uncertainly isolated](https://zeltser.com/security-risks-and-benefits-of-docker-application/).
 
 Although Docker Inc. is putting a lot of efforts toward security, it may sound scary, giving sense to the need for better isolation in case of multi-tenant applications.
 
