@@ -35,7 +35,7 @@ Both showed that Docker images need *official* maintainers.
 
 We saw that when you run Docker containers, you may be running **uncertainly safe** Images. But, also, your containers may be [uncertainly isolated](https://zeltser.com/security-risks-and-benefits-of-docker-application/).
 
-Although Docker Inc. is putting a lot of efforts toward security, it may sound scary, giving sense to the need for better isolation in case of multi-tenant applications.
+Although Docker Inc. is putting a lot of efforts toward security, it may sound scary, giving sense to the need for better isolation in case of **multi-tenant applications**.
 
 ![Hybrid Infrastructure by Docker](https://s3-us-west-1.amazonaws.com/bloghyper/post1/docker.png)
 
